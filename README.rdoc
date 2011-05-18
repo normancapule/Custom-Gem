@@ -1,0 +1,15 @@
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<     The Programmer      >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Gem Description - adds additional methods in FIXNUM and STRING Ruby objects
+
+FIXNUM:
+*.to_binary - returns a string of the binary counterpart of a FIXNUM value
+*.to_hex - returns a string of the hexadecimal counterpart of a FIXNUM value
+*.to_oct - returns a string of the octal counterpart of a FIXNUM value
+
+STRING
+*.remove_vowels - removes the vowels in the string
+*.remove_consonants - removes the consonants in the string
+*.palindrome? - returns TRUE if the string is a palindrome, else FALSE
+*.manipul_vowels - manipulats the string by changing a vowel's place in 
+                   reverse of the set of vowels in the alphabet, e.g. a = e, b = i

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>custom_gem.gemspec</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/main.css" type="text/css" media="screen" />
+    <script src="../js/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/jquery-effect.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/main.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>     
+    <div class="banner">
+        <h1>
+            custom_gem.gemspec
+        </h1>
+        <ul class="files">
+            <li>custom_gem.gemspec</li>
+            <li>Last modified: 2011-05-18 11:07:15 +0800</li>
+        </ul>
+    </div>
+
+    <div id="bodyContent">
+        <div id="content">
+    
+    <div class="description">
+        <p>
+# encouding: utf -8
+</p>
+<p>
+$:.push File.expand_path(&#8220;../lib&#8221;, <em>FILE</em>) require
+&#8216;base64&#8217;
+</p>
+<p>
+Gem::Specification.new do |s|
+</p>
+<pre>
+  s.name          = 'custom_gem'
+  s.version       = '0.1.0'
+  s.files         = `git ls-files`.split(&quot;\n&quot;) #git add . first for this to work
+  #s.files = ['lib/custom_gem.rb', 'README'] if you dont want to use git
+  s.require_paths = ['lib']
+  s.summary       = &quot;Summary&quot;
+</pre>
+<p>
+end
+</p>
+
+    </div>
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</div>
+    </div>
+  </body>
+</html>
